@@ -1,0 +1,42 @@
+* { box-sizing: border-box; } /* Setting height or width will control the size of the entire element, including its padding and border */
+
+html {
+    background-color: #b8860b33;
+}
+
+body {
+    width: 900px;
+    border: 5px solid #aa2222;	/* !!!!!!!!!  CONTEXT'S WIDTH in BODY == 880px  !!!!!!!!! */
+	padding: 0px 5px 2px 5px;     /* top right bottom left */
+    margin: 30px auto 30px auto;
+	font-family: Arial, sans-serif;
+    color: #b22222;
+	background-color: #fefefe;
+}
+
+h1 {
+    color: #ff00ffaa;
+    background-color: #00ffffee;
+}
+
+input {
+    border: none;
+    font-size: 1.2em;
+    /* background-color: #00f55f44; */
+}
+
+label {
+    font-size: 1.2em;
+    /* background-color: #88f55f44; */
+}
+
+textarea {
+    margin-top: 10px;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    /* letter-spacing: 1px; */
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
